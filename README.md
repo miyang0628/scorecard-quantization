@@ -1,4 +1,4 @@
-# scorecard-quantization (v2)
+# scorecard-quantization
 
 Code for *Integer-point rounding of additive scorecards: grade migration is first
 order, AUC change is second order, and offset-aware rounding reduces migration*
