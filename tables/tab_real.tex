@@ -1,0 +1,42 @@
+\begin{table}[t]
+\centering
+\caption{Credit data: effects of integerizing the WoE scorecard at industry lattices (PDO/grid),
+$K=10$ equal-frequency grades, evaluated on the test sample. Predictions and 95\% intervals use the
+development sample only. $\Delta A$ and its predicted first-order fluctuation sd
+$\Delta\|\hat g\|/\sqrt{12}$ are $\times10^{3}$. Last column: test migration of offset-aware rounding
+(relative change against nearest rounding).}
+\label{tab:real}
+\scriptsize
+\setlength{\tabcolsep}{2.6pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccccccccc}
+\toprule
+PDO/$g$ & $\Delta$ & scores & $M$ & $\hat M$ & 95\% interval & $\Delta A$ & $\widehat{\Delta A}$ & fluct.\ sd & RMS & OAR $M$\\
+\midrule
+\multicolumn{11}{l}{\textit{Taiwan} (re-estimation migration 0.235)}\\
+\quad 40/1 & 0.0173 & 237 & 0.083 & 0.064 & [0.043, 0.108] & +0.4 & -0.0 & 0.3 & 1.17 & 0.038 (-54\%) \\
+\quad 20/1 & 0.0347 & 120 & 0.154 & 0.127 & [0.087, 0.209] & -1.1 & -0.2 & 0.7 & 0.95 & 0.090 (-42\%) \\
+\quad 20/2 & 0.0693 & 63 & 0.223 & 0.247 & [0.174, 0.399] & +2.1 & -0.8 & 1.3 & 1.10 & 0.166 (-26\%) \\
+\quad 20/5 & 0.1733 & 24 & 0.440 & 0.468 & [0.377, 0.616] & -4.3 & -4.7 & 3.3 & 0.90 & 0.353 (-20\%) \\
+\quad 20/10 & 0.3466 & 11 & 0.708 & 0.618 & [0.531, 0.739] & -14.0 & -14.8 & 6.6 & 0.95 & 0.439 (-38\%) \\
+\multicolumn{11}{l}{\textit{GMSC} (re-estimation migration 0.149)}\\
+\quad 40/1 & 0.0173 & 302 & 0.055 & 0.034 & [0.024, 0.054] & +0.1 & +0.0 & 0.1 & 1.41 & 0.021 (-63\%) \\
+\quad 20/1 & 0.0347 & 152 & 0.123 & 0.065 & [0.045, 0.104] & -0.2 & -0.0 & 0.1 & 1.57 & 0.037 (-70\%) \\
+\quad 20/2 & 0.0693 & 78 & 0.100 & 0.130 & [0.088, 0.208] & -0.1 & -0.1 & 0.3 & 0.88 & 0.084 (-15\%) \\
+\quad 20/5 & 0.1733 & 33 & 0.316 & 0.307 & [0.229, 0.441] & -1.1 & -1.0 & 0.7 & 1.19 & 0.191 (-39\%) \\
+\quad 20/10 & 0.3466 & 15 & 0.500 & 0.490 & [0.402, 0.625] & -8.3 & -4.3 & 1.4 & 1.00 & 0.398 (-20\%) \\
+\multicolumn{11}{l}{\textit{HELOC} (re-estimation migration 0.230)}\\
+\quad 40/1 & 0.0173 & 356 & 0.032 & 0.032 & [0.023, 0.046] & -0.2 & -0.0 & 0.1 & 1.09 & 0.025 (-22\%) \\
+\quad 20/1 & 0.0347 & 190 & 0.055 & 0.065 & [0.048, 0.093] & +0.4 & -0.1 & 0.2 & 0.81 & 0.037 (-32\%) \\
+\quad 20/2 & 0.0693 & 99 & 0.093 & 0.130 & [0.099, 0.192] & -0.3 & -0.5 & 0.4 & 0.76 & 0.083 (-10\%) \\
+\quad 20/5 & 0.1733 & 43 & 0.213 & 0.322 & [0.246, 0.446] & -2.4 & -2.7 & 0.9 & 0.67 & 0.188 (-12\%) \\
+\quad 20/10 & 0.3466 & 22 & 0.575 & 0.534 & [0.447, 0.664] & -11.9 & -10.2 & 1.9 & 1.00 & 0.356 (-38\%) \\
+\multicolumn{11}{l}{\textit{German} (re-estimation migration 0.599)}\\
+\quad 40/1 & 0.0173 & 194 & 0.043 & 0.030 & [0.016, 0.051] & +0.8 & +0.1 & 0.1 & 1.25 & 0.037 (-15\%) \\
+\quad 20/1 & 0.0347 & 143 & 0.073 & 0.057 & [0.034, 0.096] & -2.0 & +0.2 & 0.2 & 1.01 & 0.047 (-36\%) \\
+\quad 20/2 & 0.0693 & 88 & 0.097 & 0.110 & [0.067, 0.184] & -0.6 & +0.1 & 0.5 & 0.63 & 0.100 (+3\%) \\
+\quad 20/5 & 0.1733 & 42 & 0.233 & 0.272 & [0.171, 0.452] & -4.2 & -1.2 & 1.1 & 0.86 & 0.167 (-29\%) \\
+\quad 20/10 & 0.3466 & 24 & 0.467 & 0.474 & [0.334, 0.691] & -6.1 & -6.0 & 2.3 & 0.99 & 0.283 (-39\%) \\
+\bottomrule
+\end{tabular}}
+\end{table}

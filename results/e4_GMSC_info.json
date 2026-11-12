@@ -1,0 +1,20 @@
+{
+ "dataset": "GMSC",
+ "N": 150000,
+ "N_train": 105000,
+ "N_test": 45000,
+ "P": 7,
+ "n_cells": 47,
+ "event_rate": 0.06684,
+ "auc_train": 0.8215123068678395,
+ "auc_test": 0.8220625048451479,
+ "features": [
+  "RevolvingUtilizationOfUnsecuredLines",
+  "NumberOfTime30-59DaysPastDueNotWorse",
+  "DebtRatio",
+  "MonthlyIncome",
+  "NumberOfOpenCreditLinesAndLoans",
+  "NumberRealEstateLoansOrLines",
+  "NumberOfDependents"
+ ]
+}

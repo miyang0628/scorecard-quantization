@@ -1,0 +1,26 @@
+{
+ "dataset": "Taiwan",
+ "N": 30000,
+ "N_train": 21000,
+ "N_test": 9000,
+ "P": 13,
+ "n_cells": 84,
+ "event_rate": 0.2212,
+ "auc_train": 0.7587936325322279,
+ "auc_test": 0.7478973185010963,
+ "features": [
+  "LIMIT_BAL",
+  "EDUCATION",
+  "PAY_0",
+  "PAY_2",
+  "PAY_3",
+  "PAY_4",
+  "PAY_5",
+  "PAY_AMT1",
+  "PAY_AMT2",
+  "PAY_AMT3",
+  "PAY_AMT4",
+  "PAY_AMT5",
+  "PAY_AMT6"
+ ]
+}

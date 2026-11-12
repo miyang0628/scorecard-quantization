@@ -1,0 +1,30 @@
+{
+ "dataset": "HELOC",
+ "N": 9871,
+ "N_train": 6909,
+ "N_test": 2962,
+ "P": 17,
+ "n_cells": 99,
+ "event_rate": 0.5203120251241009,
+ "auc_train": 0.8024518144039323,
+ "auc_test": 0.8093349000187692,
+ "features": [
+  "ExternalRiskEstimate",
+  "MSinceOldestTradeOpen",
+  "MSinceMostRecentTradeOpen",
+  "AverageMInFile",
+  "NumSatisfactoryTrades",
+  "NumTrades60Ever2DerogPubRec",
+  "NumTrades90Ever2DerogPubRec",
+  "PercentTradesNeverDelq",
+  "MSinceMostRecentDelq",
+  "MaxDelq2PublicRecLast12M",
+  "PercentInstallTrades",
+  "MSinceMostRecentInqexcl7days",
+  "NumInqLast6M",
+  "NetFractionRevolvingBurden",
+  "NumRevolvingTradesWBalance",
+  "NumBank2NatlTradesWHighUtilization",
+  "PercentTradesWBalance"
+ ]
+}

@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\caption{Empirical coverage (\%) of nominal 95\% residual-randomization prediction intervals
+($R=200$ draws; 400 for evaluation-sample intervals) for the realized migration and AUC change of
+nearest rounding. Synthetic rows: 100 scorecards per spacing. Credit rows: 4 data sets $\times$ 5 lattices.}
+\label{tab:coverage}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccccc}
+\toprule
+ & cases & $M$, $K=7$ & $M$, $K=10$ & $M$, $K=20$ & $\Delta A$\\
+\midrule
+Synthetic, $\Delta=0.05$ & 100 & 89 & 89 & 89 & 95 \\
+Synthetic, $\Delta=0.1$ & 100 & 96 & 97 & 96 & 95 \\
+Synthetic, $\Delta=0.2$ & 100 & 99 & 99 & 99 & 88 \\
+Credit data, development-sample intervals & 20 & 85 & 80 & 85 & 70 \\
+Credit data, evaluation-sample intervals & 20 & 85 & 80 & 85 & 85 \\
+\bottomrule
+\end{tabular}}
+\end{table}

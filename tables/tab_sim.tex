@@ -1,0 +1,25 @@
+\begin{table}[t]
+\centering
+\caption{Simulation study (360 scorecards, $N=20{,}000$ each): ratio of realized to predicted
+effects of nearest rounding, mean (sd) over scorecards. Migration columns use the exact
+convolution predictor (\ref{eq:Mexact}); MAD uses (\ref{eq:madp}). AUC losses are means over
+scorecards ($\times10^{4}$). The last two columns are the residual-model diagnostics of
+Section~\ref{sec:diagnostics}: mean RMS ratio and percentage of scorecards with $|\mathrm{corr}(e,f)|>0.5$.}
+\label{tab:sim}
+\small
+\setlength{\tabcolsep}{3.2pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccccccccc}
+\toprule
+ & \multicolumn{4}{c}{Migration: realized / predicted} & MAD$_p$ & \multicolumn{3}{c}{AUC loss $(\times10^4)$} & \multicolumn{2}{c}{Diagnostics}\\
+\cmidrule(lr){2-5}\cmidrule(lr){7-9}\cmidrule(lr){10-11}
+$\Delta$ & $K=7$ & $K=10$ & $K=20$ & $K=10$, EW & ratio & realized & exact & closed & RMS & flag (\%)\\
+\midrule
+0.02 & 1.01 (0.15) & 1.00 (0.13) & 1.00 (0.13) & 0.99 (0.13) & 1.00 (0.20) & 0.18 & 0.22 & 0.23 & 0.99 & 5 \\
+0.05 & 1.00 (0.13) & 1.00 (0.13) & 1.00 (0.12) & 0.99 (0.13) & 0.99 (0.19) & 1.67 & 1.52 & 1.46 & 0.99 & 4 \\
+0.1 & 0.98 (0.12) & 0.98 (0.11) & 0.99 (0.10) & 0.98 (0.12) & 1.03 (0.24) & 6.23 & 6.01 & 5.85 & 0.99 & 9 \\
+0.2 & 0.99 (0.10) & 1.00 (0.09) & 0.99 (0.07) & 0.99 (0.09) & 1.01 (0.20) & 25.48 & 23.72 & 23.39 & 0.99 & 8 \\
+0.4 & 1.32 (0.35) & 1.24 (0.25) & 1.13 (0.12) & 1.22 (0.25) & 1.33 (0.38) & 167.17 & 91.72 & 93.56 & 1.31 & 61 \\
+\bottomrule
+\end{tabular}}
+\end{table}

@@ -1,0 +1,29 @@
+{
+ "dataset": "German",
+ "N": 1000,
+ "N_train": 700,
+ "N_test": 300,
+ "P": 16,
+ "n_cells": 79,
+ "event_rate": 0.3,
+ "auc_train": 0.8325850340136054,
+ "auc_test": 0.7851851851851852,
+ "features": [
+  "status_of_existing_checking_account",
+  "duration_in_month",
+  "credit_history",
+  "purpose",
+  "credit_amount",
+  "savings_account_and_bonds",
+  "present_employment_since",
+  "installment_rate_in_percentage_of_disposable_income",
+  "other_debtors_or_guarantors",
+  "present_residence_since",
+  "property",
+  "other_installment_plans",
+  "housing",
+  "job",
+  "number_of_people_being_liable_to_provide_maintenance_for",
+  "telephone"
+ ]
+}

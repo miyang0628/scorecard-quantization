@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Credit data sets and fitted WoE scorecards. $P$: features retained; cells: total bins
+(including missing/other bins); event: default rate.}
+\label{tab:data}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrrrr}
+\toprule
+Data set & $N$ & train & $P$ & cells & event (\%) & AUC train & AUC test\\
+\midrule
+Taiwan & 30,000 & 21,000 & 13 & 84 & 22.1 & 0.759 & 0.748 \\
+GMSC & 150,000 & 105,000 & 7 & 47 & 6.7 & 0.822 & 0.822 \\
+HELOC & 9,871 & 6,909 & 17 & 99 & 52.0 & 0.802 & 0.809 \\
+German & 1,000 & 700 & 16 & 79 & 30.0 & 0.833 & 0.785 \\
+\bottomrule
+\end{tabular}}
+\end{table}
